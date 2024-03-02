@@ -1,0 +1,191 @@
+
+
+body {
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.backimg{
+    background-image: url('../images/snowing1.gif');
+    opacity: 0.5;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 75%;
+    margin: auto;
+    max-height: 750%;
+    margin-top: 5%;
+    background: rgb(232, 230, 230);
+    box-shadow: 0 0 10px 7px #fdfdfd;
+    padding-bottom: 5px;
+}
+
+.left {
+    margin-left: 65px;
+}
+
+.left,
+.right {
+    width: 45%;
+    padding: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide {
+    width: 380px;
+    height: 530px;
+}
+
+.option img {
+    width: 130px;
+    height: 175px;
+    padding: 10px;
+    opacity: 120%;
+}
+
+.right {
+    padding: 50px 100px 50px 50px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    margin: 20px 0 25px 0;
+    font-size: 25px;
+}
+
+h5,
+p,
+small {
+    color: rgb(231, 3, 227);
+}
+
+h4 {
+    color: rgb(77, 0, 105);
+    font-size: 18px;
+}
+
+p {
+    margin: 20px 0 50px 0;
+    line-height: 15px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.right form {
+    font-weight: 400;
+}
+
+.size-select {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+.size-select input:checked+span {
+    color: rgb(63, 72, 148);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.size-select input {
+    display: none;
+}
+
+.size-select span {
+    padding: 3px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.quantity-select {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.quantity-select input {
+    font-size: 12px;
+    background: #b8b8b8;
+    border: 0;
+    outline: 0;
+    padding: 8px 8px 8px 18px;
+    width: 60px;
+    border-radius: 12px;
+    margin-left: 28px;
+}
+
+
+
+
+.addbtn {
+
+    background-color: #000000;
+    color: azure;
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-top: 20%;
+    box-shadow: 0 0 15px 6px gold;
+    cursor: pointer;
+}
+
+.addbtn:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+
+@media only screen and (max-width:768px) {
+    .container {
+        max-width: 90%;
+        margin: auto;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+}
+
+@media(max-width:511px) {
+    .container {
+        max-width: 100%;
+        margin: 10px;
+        height: auto;
+    }
+
+    .left,
+    .right {
+        padding: 0;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .option {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

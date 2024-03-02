@@ -1,0 +1,134 @@
+body{
+  background-color: #000000;
+}
+
+.icon {
+  background: #ffffff;
+  width: 540px;
+  height: 540px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 15%;
+}
+
+#logom img {
+  float: right;
+  margin-right: 12px;
+  margin-top: 12px;
+  width: 75px ;
+
+}
+
+
+.lefticon {
+  float: left;
+  top: -5%;
+  position: absolute;
+  width: 15%;
+  height: 110%;
+  background: #000000;
+  box-shadow: 3px 3px 9px 7px rgb(101, 101, 101);
+}
+
+.lefticon nav a {
+  list-style: none;
+  padding: 35px;
+  color: #ffffff;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.lefticon nav a:hover {
+  color: #5100ff;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.lefticone nav a:first-child {
+  margin-top: 7px;
+}
+
+.active {
+  color: #0011ff;
+}
+
+.rightbox {
+  float: right;
+  width: 60%;
+  height: 100%;
+}
+
+.ebox{
+  width: 80%;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border-color: rgb(21, 0, 255);
+}
+
+.eradio{
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.profile h1 {
+  color: #15008c;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.profile h2 {
+  color: #777;
+  width: 80%;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.profile p{
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(#000000,#000000) 1 0;
+  border-top: 0;
+  width: 80%;
+  font-size: 12px;
+  padding: 6px;
+  color: #070707;
+}
+
+.editbtn {
+  margin-left: 15px;
+  width: 40px;
+  height: 18px;
+  font-size: 11px;
+  border-radius: 5px;
+  border: none;
+  color: #000000;
+  background-color: #b1b1b1;
+
+}
+
+.editbtn:hover{
+  color: white;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+
+.savebtn{
+  margin-top: 15px;
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.savebtn:hover{
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 5px rgb(0, 200, 255);
+  cursor: pointer;
+}
+

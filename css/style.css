@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.headti{
+    text-align: center;
+    color: yellow;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.gallery-itembtn{
+    border: none;
+    border-radius: 15px;
+    margin: 0;
+    padding: 0;
+}
+.gallery-itembtn:hover{
+    box-shadow: 0 0 5px,
+  0 0 25px rgb(214, 214, 214);
+
+}
+
+
+.gallery-item{
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 15px;
+    height: 250px;
+    width: 400px;
+}
+
+
+
